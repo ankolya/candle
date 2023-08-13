@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98D7EDBD2A68016C00BA2A1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7EDBC2A68016C00BA2A1D /* AppDelegate.swift */; };
+		98D7EDBF2A68016C00BA2A1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7EDBE2A68016C00BA2A1D /* SceneDelegate.swift */; };
+		98D7EDC12A68016C00BA2A1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7EDC02A68016C00BA2A1D /* ViewController.swift */; };
+		98D7EDC42A68016C00BA2A1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D7EDC22A68016C00BA2A1D /* Main.storyboard */; };
+		98D7EDC62A68016D00BA2A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D7EDC52A68016D00BA2A1D /* Assets.xcassets */; };
+		98D7EDC92A68016D00BA2A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D7EDC72A68016D00BA2A1D /* LaunchScreen.storyboard */; };
+		98D7EDD42A68016D00BA2A1D /* aromatic_candleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7EDD32A68016D00BA2A1D /* aromatic_candleTests.swift */; };
+		98D7EDDE2A68016D00BA2A1D /* aromatic_candleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7EDDD2A68016D00BA2A1D /* aromatic_candleUITests.swift */; };
+		98D7EDE02A68016D00BA2A1D /* aromatic_candleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7EDDF2A68016D00BA2A1D /* aromatic_candleUITestsLaunchTests.swift */; };
+		98D7EDED2A686B4500BA2A1D /* generalimage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98D7EDEC2A686B4500BA2A1D /* generalimage.jpeg */; };
+		98D7EDF02A68707900BA2A1D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7EDEF2A68707900BA2A1D /* Login.swift */; };
+		98D7EDF22A695C4200BA2A1D /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7EDF12A695C4200BA2A1D /* Catalog.swift */; };
+		98D7EDF72A697D7000BA2A1D /* белаясвеча.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D7EDF62A697D7000BA2A1D /* белаясвеча.png */; };
+		98D7EDF92A697D7700BA2A1D /* чернаясвеча.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D7EDF82A697D7700BA2A1D /* чернаясвеча.png */; };
+		98D7EDFB2A6B2E6500BA2A1D /* малдиф.webp in Resources */ = {isa = PBXBuildFile; fileRef = 98D7EDFA2A6B2E6500BA2A1D /* малдиф.webp */; };
+		98D7EDFD2A6B2E7100BA2A1D /* большойдиф.webp in Resources */ = {isa = PBXBuildFile; fileRef = 98D7EDFC2A6B2E7100BA2A1D /* большойдиф.webp */; };
+		98D7EDFF2A6B2E7B00BA2A1D /* автодиф.webp in Resources */ = {isa = PBXBuildFile; fileRef = 98D7EDFE2A6B2E7B00BA2A1D /* автодиф.webp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98D7EDD02A68016D00BA2A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D7EDB12A68016C00BA2A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D7EDB82A68016C00BA2A1D;
+			remoteInfo = aromatic_candle;
+		};
+		98D7EDDA2A68016D00BA2A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D7EDB12A68016C00BA2A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D7EDB82A68016C00BA2A1D;
+			remoteInfo = aromatic_candle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98D7EDB92A68016C00BA2A1D /* aromatic_candle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aromatic_candle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D7EDBC2A68016C00BA2A1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98D7EDBE2A68016C00BA2A1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98D7EDC02A68016C00BA2A1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98D7EDC32A68016C00BA2A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98D7EDC52A68016D00BA2A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98D7EDC82A68016D00BA2A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98D7EDCA2A68016D00BA2A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D7EDCF2A68016D00BA2A1D /* aromatic_candleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aromatic_candleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D7EDD32A68016D00BA2A1D /* aromatic_candleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aromatic_candleTests.swift; sourceTree = "<group>"; };
+		98D7EDD92A68016D00BA2A1D /* aromatic_candleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aromatic_candleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D7EDDD2A68016D00BA2A1D /* aromatic_candleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aromatic_candleUITests.swift; sourceTree = "<group>"; };
+		98D7EDDF2A68016D00BA2A1D /* aromatic_candleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aromatic_candleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98D7EDEC2A686B4500BA2A1D /* generalimage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = generalimage.jpeg; sourceTree = "<group>"; };
+		98D7EDEF2A68707900BA2A1D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		98D7EDF12A695C4200BA2A1D /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		98D7EDF62A697D7000BA2A1D /* белаясвеча.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "белаясвеча.png"; sourceTree = "<group>"; };
+		98D7EDF82A697D7700BA2A1D /* чернаясвеча.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "чернаясвеча.png"; sourceTree = "<group>"; };
+		98D7EDFA2A6B2E6500BA2A1D /* малдиф.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "малдиф.webp"; sourceTree = "<group>"; };
+		98D7EDFC2A6B2E7100BA2A1D /* большойдиф.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "большойдиф.webp"; sourceTree = "<group>"; };
+		98D7EDFE2A6B2E7B00BA2A1D /* автодиф.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "автодиф.webp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98D7EDB62A68016C00BA2A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D7EDCC2A68016D00BA2A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D7EDD62A68016D00BA2A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98D7EDB02A68016C00BA2A1D = {
+			isa = PBXGroup;
+			children = (
+				98D7EDBB2A68016C00BA2A1D /* aromatic_candle */,
+				98D7EDD22A68016D00BA2A1D /* aromatic_candleTests */,
+				98D7EDDC2A68016D00BA2A1D /* aromatic_candleUITests */,
+				98D7EDBA2A68016C00BA2A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98D7EDBA2A68016C00BA2A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98D7EDB92A68016C00BA2A1D /* aromatic_candle.app */,
+				98D7EDCF2A68016D00BA2A1D /* aromatic_candleTests.xctest */,
+				98D7EDD92A68016D00BA2A1D /* aromatic_candleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98D7EDBB2A68016C00BA2A1D /* aromatic_candle */ = {
+			isa = PBXGroup;
+			children = (
+				98D7EDBC2A68016C00BA2A1D /* AppDelegate.swift */,
+				98D7EDBE2A68016C00BA2A1D /* SceneDelegate.swift */,
+				98D7EDC02A68016C00BA2A1D /* ViewController.swift */,
+				98D7EDC22A68016C00BA2A1D /* Main.storyboard */,
+				98D7EDF12A695C4200BA2A1D /* Catalog.swift */,
+				98D7EDEF2A68707900BA2A1D /* Login.swift */,
+				98D7EDC52A68016D00BA2A1D /* Assets.xcassets */,
+				98D7EDC72A68016D00BA2A1D /* LaunchScreen.storyboard */,
+				98D7EDCA2A68016D00BA2A1D /* Info.plist */,
+				98D7EDEE2A686B5D00BA2A1D /* photo */,
+			);
+			path = aromatic_candle;
+			sourceTree = "<group>";
+		};
+		98D7EDD22A68016D00BA2A1D /* aromatic_candleTests */ = {
+			isa = PBXGroup;
+			children = (
+				98D7EDD32A68016D00BA2A1D /* aromatic_candleTests.swift */,
+			);
+			path = aromatic_candleTests;
+			sourceTree = "<group>";
+		};
+		98D7EDDC2A68016D00BA2A1D /* aromatic_candleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98D7EDDD2A68016D00BA2A1D /* aromatic_candleUITests.swift */,
+				98D7EDDF2A68016D00BA2A1D /* aromatic_candleUITestsLaunchTests.swift */,
+			);
+			path = aromatic_candleUITests;
+			sourceTree = "<group>";
+		};
+		98D7EDEE2A686B5D00BA2A1D /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				98D7EDF62A697D7000BA2A1D /* белаясвеча.png */,
+				98D7EDFE2A6B2E7B00BA2A1D /* автодиф.webp */,
+				98D7EDFA2A6B2E6500BA2A1D /* малдиф.webp */,
+				98D7EDFC2A6B2E7100BA2A1D /* большойдиф.webp */,
+				98D7EDF82A697D7700BA2A1D /* чернаясвеча.png */,
+				98D7EDEC2A686B4500BA2A1D /* generalimage.jpeg */,
+			);
+			path = photo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98D7EDB82A68016C00BA2A1D /* aromatic_candle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D7EDE32A68016D00BA2A1D /* Build configuration list for PBXNativeTarget "aromatic_candle" */;
+			buildPhases = (
+				98D7EDB52A68016C00BA2A1D /* Sources */,
+				98D7EDB62A68016C00BA2A1D /* Frameworks */,
+				98D7EDB72A68016C00BA2A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aromatic_candle;
+			productName = aromatic_candle;
+			productReference = 98D7EDB92A68016C00BA2A1D /* aromatic_candle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98D7EDCE2A68016D00BA2A1D /* aromatic_candleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D7EDE62A68016D00BA2A1D /* Build configuration list for PBXNativeTarget "aromatic_candleTests" */;
+			buildPhases = (
+				98D7EDCB2A68016D00BA2A1D /* Sources */,
+				98D7EDCC2A68016D00BA2A1D /* Frameworks */,
+				98D7EDCD2A68016D00BA2A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D7EDD12A68016D00BA2A1D /* PBXTargetDependency */,
+			);
+			name = aromatic_candleTests;
+			productName = aromatic_candleTests;
+			productReference = 98D7EDCF2A68016D00BA2A1D /* aromatic_candleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98D7EDD82A68016D00BA2A1D /* aromatic_candleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D7EDE92A68016D00BA2A1D /* Build configuration list for PBXNativeTarget "aromatic_candleUITests" */;
+			buildPhases = (
+				98D7EDD52A68016D00BA2A1D /* Sources */,
+				98D7EDD62A68016D00BA2A1D /* Frameworks */,
+				98D7EDD72A68016D00BA2A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D7EDDB2A68016D00BA2A1D /* PBXTargetDependency */,
+			);
+			name = aromatic_candleUITests;
+			productName = aromatic_candleUITests;
+			productReference = 98D7EDD92A68016D00BA2A1D /* aromatic_candleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98D7EDB12A68016C00BA2A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					98D7EDB82A68016C00BA2A1D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					98D7EDCE2A68016D00BA2A1D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 98D7EDB82A68016C00BA2A1D;
+					};
+					98D7EDD82A68016D00BA2A1D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 98D7EDB82A68016C00BA2A1D;
+					};
+				};
+			};
+			buildConfigurationList = 98D7EDB42A68016C00BA2A1D /* Build configuration list for PBXProject "aromatic_candle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98D7EDB02A68016C00BA2A1D;
+			productRefGroup = 98D7EDBA2A68016C00BA2A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98D7EDB82A68016C00BA2A1D /* aromatic_candle */,
+				98D7EDCE2A68016D00BA2A1D /* aromatic_candleTests */,
+				98D7EDD82A68016D00BA2A1D /* aromatic_candleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98D7EDB72A68016C00BA2A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D7EDF72A697D7000BA2A1D /* белаясвеча.png in Resources */,
+				98D7EDF92A697D7700BA2A1D /* чернаясвеча.png in Resources */,
+				98D7EDFB2A6B2E6500BA2A1D /* малдиф.webp in Resources */,
+				98D7EDC92A68016D00BA2A1D /* LaunchScreen.storyboard in Resources */,
+				98D7EDC62A68016D00BA2A1D /* Assets.xcassets in Resources */,
+				98D7EDED2A686B4500BA2A1D /* generalimage.jpeg in Resources */,
+				98D7EDFF2A6B2E7B00BA2A1D /* автодиф.webp in Resources */,
+				98D7EDFD2A6B2E7100BA2A1D /* большойдиф.webp in Resources */,
+				98D7EDC42A68016C00BA2A1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D7EDCD2A68016D00BA2A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D7EDD72A68016D00BA2A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98D7EDB52A68016C00BA2A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D7EDF22A695C4200BA2A1D /* Catalog.swift in Sources */,
+				98D7EDC12A68016C00BA2A1D /* ViewController.swift in Sources */,
+				98D7EDBD2A68016C00BA2A1D /* AppDelegate.swift in Sources */,
+				98D7EDBF2A68016C00BA2A1D /* SceneDelegate.swift in Sources */,
+				98D7EDF02A68707900BA2A1D /* Login.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D7EDCB2A68016D00BA2A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D7EDD42A68016D00BA2A1D /* aromatic_candleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D7EDD52A68016D00BA2A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D7EDDE2A68016D00BA2A1D /* aromatic_candleUITests.swift in Sources */,
+				98D7EDE02A68016D00BA2A1D /* aromatic_candleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98D7EDD12A68016D00BA2A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D7EDB82A68016C00BA2A1D /* aromatic_candle */;
+			targetProxy = 98D7EDD02A68016D00BA2A1D /* PBXContainerItemProxy */;
+		};
+		98D7EDDB2A68016D00BA2A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D7EDB82A68016C00BA2A1D /* aromatic_candle */;
+			targetProxy = 98D7EDDA2A68016D00BA2A1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98D7EDC22A68016C00BA2A1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D7EDC32A68016C00BA2A1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98D7EDC72A68016D00BA2A1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D7EDC82A68016D00BA2A1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98D7EDE12A68016D00BA2A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98D7EDE22A68016D00BA2A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98D7EDE42A68016D00BA2A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aromatic_candle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "anna.aromatic-candle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98D7EDE52A68016D00BA2A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aromatic_candle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "anna.aromatic-candle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98D7EDE72A68016D00BA2A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "anna.aromatic-candleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aromatic_candle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aromatic_candle";
+			};
+			name = Debug;
+		};
+		98D7EDE82A68016D00BA2A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "anna.aromatic-candleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aromatic_candle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aromatic_candle";
+			};
+			name = Release;
+		};
+		98D7EDEA2A68016D00BA2A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "anna.aromatic-candleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = aromatic_candle;
+			};
+			name = Debug;
+		};
+		98D7EDEB2A68016D00BA2A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "anna.aromatic-candleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = aromatic_candle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98D7EDB42A68016C00BA2A1D /* Build configuration list for PBXProject "aromatic_candle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D7EDE12A68016D00BA2A1D /* Debug */,
+				98D7EDE22A68016D00BA2A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D7EDE32A68016D00BA2A1D /* Build configuration list for PBXNativeTarget "aromatic_candle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D7EDE42A68016D00BA2A1D /* Debug */,
+				98D7EDE52A68016D00BA2A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D7EDE62A68016D00BA2A1D /* Build configuration list for PBXNativeTarget "aromatic_candleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D7EDE72A68016D00BA2A1D /* Debug */,
+				98D7EDE82A68016D00BA2A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D7EDE92A68016D00BA2A1D /* Build configuration list for PBXNativeTarget "aromatic_candleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D7EDEA2A68016D00BA2A1D /* Debug */,
+				98D7EDEB2A68016D00BA2A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98D7EDB12A68016C00BA2A1D /* Project object */;
+}
